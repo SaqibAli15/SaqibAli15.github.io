@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saqibali15.github.io/sitemap.xml
