@@ -144,7 +144,7 @@ img { max-width: 100%; display: block; }
 .section-sub { color: var(--text-soft); font-size: 1.05rem; }
 
 /* ---------- Hero ---------- */
-.hero-section { position: relative; padding: 25px 0 60px; overflow: hidden; }
+.hero-section { position: relative; padding: 72px 0 60px; overflow: hidden; }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0; pointer-events: none;
   background:
