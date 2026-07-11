@@ -357,6 +357,13 @@ a.contact-card:hover { transform: translateY(-3px); border-color: var(--accent);
 /* ============================================================
    RESPONSIVE
    ============================================================ */
+/* Desktop/laptop: tighten hero vertical padding so the image + copy + CTAs
+   fit above the fold. Mobile (≤960px) keeps its original top padding. */
+@media (min-width: 961px) {
+  .hero-section { padding: 36px 0 36px; }
+  .hero-grid { padding-top: 8px; padding-bottom: 16px; }
+}
+
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
   .hero-copy { order: 2; }
